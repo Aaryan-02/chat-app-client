@@ -1,4 +1,4 @@
-export const host = "https://snappy-d3ji511ju-imaryan32gmailcoms-projects.vercel.app";
+export const host = "https://chat-app-server-0xv7.onrender.com";
 export const loginRoute = `${host}/api/auth/login`;
 export const registerRoute = `${host}/api/auth/register`;
 export const logoutRoute = `${host}/api/auth/logout`;
