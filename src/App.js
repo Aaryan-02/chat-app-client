@@ -17,7 +17,7 @@ const App = () => {
       return;
     }
     try {
-      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/ping`);
+      const response = await fetch("https://chat-app-server-0xv7.onrender.com/api/ping");
       if (response.ok) {
         setBackendReady(true);
         setLoading(false);
